@@ -1,0 +1,22 @@
+#id{
+    border: 1px solid #010101;
+    border-radius: 2px;
+    padding: 8px 10px;
+    font-size: 18px;
+    margin: 20px 0px
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+.btn{
+width: 100px;
+padding: 10px 10px;
+background-color: #6aeeb5;
+border: none;
+}
+
+.container{
+display: flex;
+justify-content: center;}

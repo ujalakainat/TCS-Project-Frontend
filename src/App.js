@@ -7,13 +7,12 @@ import Head from "./Pages/Head";
 
 function App() {
   return (
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Dashboard />} />
-          <Route path="/teacher" element={<Teacher />} />
-          <Route path="/head" element={<Head />} />
-        </Routes>
-      </BrowserRouter>
+    <Routes>
+
+      <Route path="/" element={<Dashboard />} />
+      <Route path="/teacher" element={<Teacher />} />
+      <Route path="/head" element={<Head />} />
+    </Routes>
   );
 }
 
